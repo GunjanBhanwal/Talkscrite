@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="panel">
+            <div class="logo">
+                <img id="logo1"
+                src="images/logo.jpg" alt="logo" height="50vh">
+                <p id="one">TalkScribe</p>
+            </div>
+            <div class="link">
+                <ul>
+                    <li><a href="#two">Home</a></li>
+                    <li><a href="#tools">Tools</a></li>
+                    <li id="navtoabout"><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <div class="home">
+    <div class="home1">
+    <p id="two">It's all about languages </p>
+    <p id="four">here,</p>
+    <p id="three">where fluency meets fun!</p>
+    <div class="para"><p >
+        Welcome to our cutting-edge language solutions platform, where the power of communication knows no bounds. At our digital haven, we specialize in seamless language translation and text-to-speech conversion, offering a diverse array of tools that empower you to break through linguistic barriers with ease.
+    </p>
+</div>
+</div>
+<div class="home2">
+    <img id="globe" src="images/_a globe arond  0.png" height="500px">
+</div>
+</div>
+<p id="tools"><h2>TOOLS</h2></p>
+    <div class="main1">
+        <div class="columns">
+            <div class="column">
+                <a href="audio/index1.html">
+                    <img id="trans"src="images/audio.jpg" alt="image">
+                 
+                </a>
+                <p>TEXT TO SPEECH</p>
+            </div>
+            <div class="column">
+               
+                <a href="tranlate/trans.html">
+                    <img id="trans"src="images/trans.jpg" alt="image">
+                 
+                </a>
+                <p>LANGUAGE TRANSLATOR</p>
+            </div>
+        </div>
+    </div>
+<p ><h2 id="about">ABOUT</h2></p>
+<div class="about">
+    <p id="about1">Are you looking to bridge the language barrier and connect with people from all around the world? Look no further! TALK SCRIBE is your one-stop destination for seamless language translation services.
+        Welcome to TALK SCRIBE, your one-stop solution for converting text into high-quality audio! In a world where information is constantly flowing, our text-to-audio converter empowers you to transform written content into spoken words, making it more accessible, engaging, and versatile.
+        
+        At TALK SCRIBE, we understand the power of language and its ability to bring people together, fostering communication and understanding across borders. Whether you're a traveler, a global business professional, a language enthusiast, or someone seeking to connect with friends and family from diverse backgrounds, our language translation tools are designed to make your life easier and more inclusive.
+        </p>
+</div>   
+<div class="container">
+    <h2 id="contact">Contact Us</h2>
+        <form id="contactForm" onsubmit="submitForm(event)">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+<script src="./script.js"></script>
+</body>
+</html>

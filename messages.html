@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      body {
+    font-family: 'Arial', sans-serif;
+    background-color:aquamarine;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: rgba(0, 255, 255, 0.475);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-style: double;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.thank{
+    border-style: double;
+    background-color:rgb(38, 218, 158);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    border-radius: 4px;
+    align-items: center;
+}
+  
+    </style>
+    <title>Contact Details</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Contact Details</h2>
+        <p><strong>Name:</strong> <span id="displayName"></span></p>
+        <p><strong>Email:</strong> <span id="displayEmail"></span></p>
+        <p><strong>Message:</strong> <span id="displayMessage"></span></p>
+    </div>
+    <div class="thank">
+    <h1>THANK YOU </h1>
+    <p>
+        Your message has been sent successfully!</p>
+    </div>
+
+    <script>
+        
+        document.getElementById('displayName').innerText = sessionStorage.getItem('name');
+        document.getElementById('displayEmail').innerText = sessionStorage.getItem('email');
+        document.getElementById('displayMessage').innerText = sessionStorage.getItem('message');
+    </script>
+</body>
+</html>

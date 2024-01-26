@@ -1,3 +1,2 @@
 # Mini-Project
-This is our 3rd semester mini project done by me and my teammate Prachi Sah.The main idea behind this is to a one stop destination for every task related to communication.
-As of now it has two features of language transalator and text to speech convertor by it holds immense potential as it can be expandable.
+Our 3rd-semester mini project TalkScrite, crafted by me and my teammate Prachi Sah, aims to be a comprehensive communication hub. Currently featuring a language translator, text-to-speech converter, word counter, and a synonym-providing dictionary, our project is highly versatile. With room for expansion, it offers a one-stop solution for diverse communication tasks. Check out our GitHub repository for a transformative communication experience.

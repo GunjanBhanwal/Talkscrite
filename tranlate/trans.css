@@ -1,154 +1,153 @@
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'roboto',sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: PP Acma;
 }
-body{
-    background-image:url('/images/background.jpg') ;
-    display: flex;
-    background-size: cover;
-    background-repeat: no-repeat;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+body {
+  background-image: url("/images/background.jpg");
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .navbar {
-    display: flex;
-    background-color: #CEA0B6;
-    justify-content: center;
-    align-items: center;
-    height: 60px;
-    width: 100%;
-    position: fixed;
-    top: 0; 
-    z-index: 1000;
+  display: flex;
+  background-color: #cea0b6;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  padding: 2em;
+  top: 0;
+  z-index: 1000;
 }
 .logo {
-    display: flex;
-    border-radius: 30%;
-    justify-content: flex-end;
-    align-items: center;
-    margin-left: 20px;
-    flex-grow: 1;
-
+  display: flex;
+  border-radius: 30%;
+  gap: 1rem;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 20px;
+  flex-grow: 1;
 }
 #two {
-    color: #000;
-    font-size: 50px;
-    padding-top: 60px;
-    padding-left: 20px;
-    font-weight: bolder;
+  color: #000;
+  font-size: 50px;
+  padding-top: 60px;
+  padding-left: 20px;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 1rem;
 }
 
 #three {
-    color: #000;
-    font-size: 40px;
-    padding-top: 14px;
-    padding-left: 20px;
-    font-weight: bolder;
-    padding-bottom: 50px;
+  color: #000;
+  font-size: 40px;
+  padding-top: 14px;
+  padding-left: 20px;
+  font-weight: bolder;
+  padding-bottom: 50px;
 }
-.container{
-    width: 900px;
-    background-image: url('/images/backgroundlang.webp');
-    box-shadow: 0 2px 20px rgba(0,0, 0, .3);
-    border-radius: 5px;
-    overflow: hidden;
+.container {
+  width: 900px;
+  background: url(../images/backgroundlang.webp) center/cover no-repeat;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  overflow: hidden;
 }
-.translator_property{
-    border: 1px solid #7e7e7e;
+.translator_property {
+  border: 1px solid #7e7e7e;
 }
-.translator_property .nuv_item{
-    display: flex;
-    width: 100%;
-    height: 50px;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    border-bottom: 1px solid #7e7e7e;;
-    padding: 0 20px;
-    
+.translator_property .nuv_item {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  border-bottom: 1px solid #7e7e7e;
+  padding: 0 20px;
 }
-.translator_property .nuv_item li select{
-    outline: none;
-    border-style: double;
-    padding: 10px 0;
-    font-size:17px;
-    font-weight: 500;
-    color: #000;
-    cursor: pointer;
-    transition: all .3s ease-out;
-    background-color:#CEA0B6;
-    }
-    .translator_property .nuv_item li select:hover{
-        color :#111;
-    }
-    .bx-transfer{
-        font-size: 22px;
-        color: #606060;
-        cursor: pointer;
-        transition: all .3s ease-out;
-    }
-    .bx-transfer:hover{
-        color:#111;
-    
-    }
-    .write_box{
-        display:flex ;  
-          
-    }
-    .property_from, .property_trans{
-        width:100%;
-        position: relative;
-    }
-    .write_box textarea{
-        width:100%;
-        height: 250px;
-        border-style: none;
-        outline:none;
-        resize:none;
-        padding: 10px 20px;
-        font-size: 20px;
-        color: #000;
-        position: relative;
-        background-image: url('/images/backgroundlang.webp');
-        border: 1px solid #7e7e7e;
-    }
-    .write_box textarea:nth-child(1){
-        border-right: 1px solid #7e7e7e;
-    }
-    .write_box .icons{
-        position:absolute;
-        right:0;
-        bottom: 0;
-        display: flex;
-        width:100%;
-        justify-content: space-between;
-        align-items: center;
-        padding: 15px 20px;
-    }
-    
-    .icons .bx{
-        width: 35px;
-        height: 35px;
-        background: #ddd;
-        text-align: center;
-        line-height: 35px;
-        font-size: 18px;
-        color: #000;
-        border-radius: 50%;
-        cursor: pointer;
-        transition: all .3s ease-out;
-    }
-   
-    .icons  .bx:hover{
-        background:#606060;
-        color:wheat
-    }
-    .code_length{
-        font-size: 18px;
-        color: #606060;
-    }
+.translator_property .nuv_item li select {
+  outline: none;
+  border-style: double;
+  padding: 10px 0;
+  font-size: 17px;
+  font-weight: 500;
+  color: #000;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  background-color: #cea0b6;
+}
+.translator_property .nuv_item li select:hover {
+  color: #111;
+}
+.bx-transfer {
+  font-size: 22px;
+  color: #606060;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.bx-transfer:hover {
+  color: #111;
+}
+.write_box {
+  display: flex;
+}
+.property_from,
+.property_trans {
+  width: 100%;
+  position: relative;
+}
+.write_box textarea {
+  width: 100%;
+  height: 250px;
+  border-style: none;
+  outline: none;
+  resize: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: #000;
+  position: relative;
+  background-image: url("/images/backgroundlang.webp");
+  border: 1px solid #7e7e7e;
+}
+.write_box textarea:nth-child(1) {
+  border-right: 1px solid #7e7e7e;
+}
+.write_box .icons {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
 
-    
+.icons .bx {
+  width: 35px;
+  height: 35px;
+  background: #ddd;
+  text-align: center;
+  line-height: 35px;
+  font-size: 18px;
+  color: #000;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.icons .bx:hover {
+  background: #606060;
+  color: wheat;
+}
+.code_length {
+  font-size: 18px;
+  color: #606060;
+}
